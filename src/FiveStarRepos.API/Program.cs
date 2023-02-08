@@ -1,8 +1,7 @@
-using FiveStarRepos.API;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace asda
+namespace FiveStarRepos.API
 {
     public class Program
     {

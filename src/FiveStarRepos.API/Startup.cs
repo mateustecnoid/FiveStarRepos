@@ -24,7 +24,7 @@ namespace FiveStarRepos.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FiveStarRepos.API", Version = "v1" });
             });
 
-            services.ConfigureApplicationContext();
+            services.ConfigureApplicationContext(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
