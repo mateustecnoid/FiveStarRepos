@@ -28,7 +28,7 @@ namespace FiveStarRepos.API.Controllers
             if (!response.IsSuccessStatusCode)
                 return NoContent();
 
-            return Ok(response.Content.ToString());
+            return Ok(response.Content);
 
         }
     }
