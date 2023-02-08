@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E019F4A-B4F0-4494-9826-E5BB4EB9457F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{47D42667-324D-4814-BA46-EC455462D382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.API", "src\FiveStarRepos.API\FiveStarRepos.API.csproj", "{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.UnitTests", "tests\FiveStarRepos.UnitTests\FiveStarRepos.UnitTests.csproj", "{84114943-8D2B-4F69-9E73-5DCBE264CE33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Domain", "src\FiveStarRepos.Domain\FiveStarRepos.Domain.csproj", "{11986753-5083-4872-A189-AD43752AFFE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Infra", "src\FiveStarRepos.Infra\FiveStarRepos.Infra.csproj", "{D5F83661-3AB5-4731-A2B6-025E83BB3B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Application", "src\FiveStarRepos.Application\FiveStarRepos.Application.csproj", "{0F0862FD-F3ED-4BC4-9440-CE7395009187}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84114943-8D2B-4F69-9E73-5DCBE264CE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84114943-8D2B-4F69-9E73-5DCBE264CE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84114943-8D2B-4F69-9E73-5DCBE264CE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84114943-8D2B-4F69-9E73-5DCBE264CE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11986753-5083-4872-A189-AD43752AFFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11986753-5083-4872-A189-AD43752AFFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11986753-5083-4872-A189-AD43752AFFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11986753-5083-4872-A189-AD43752AFFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F83661-3AB5-4731-A2B6-025E83BB3B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F83661-3AB5-4731-A2B6-025E83BB3B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F83661-3AB5-4731-A2B6-025E83BB3B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F83661-3AB5-4731-A2B6-025E83BB3B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
+		{84114943-8D2B-4F69-9E73-5DCBE264CE33} = {47D42667-324D-4814-BA46-EC455462D382}
+		{11986753-5083-4872-A189-AD43752AFFE5} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
+		{D5F83661-3AB5-4731-A2B6-025E83BB3B13} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
+		{0F0862FD-F3ED-4BC4-9440-CE7395009187} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43F70848-5279-4152-B8B5-DAFFD1E8DC78}
+	EndGlobalSection
+EndGlobal

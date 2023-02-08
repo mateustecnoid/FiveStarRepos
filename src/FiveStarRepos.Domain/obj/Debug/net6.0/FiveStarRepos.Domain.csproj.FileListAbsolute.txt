@@ -1,0 +1,12 @@
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\bin\Debug\net6.0\FiveStarRepos.Domain.deps.json
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\bin\Debug\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\bin\Debug\net6.0\FiveStarRepos.Domain.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.csproj.AssemblyReference.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.AssemblyInfoInputs.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.AssemblyInfo.cs
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.csproj.CoreCompileInputs.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\refint\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\FiveStarRepos.Domain.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Debug\net6.0\ref\FiveStarRepos.Domain.dll
