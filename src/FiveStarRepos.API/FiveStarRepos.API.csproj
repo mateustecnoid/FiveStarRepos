@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FiveStarRepos.Infra\FiveStarRepos.Infra.csproj" />
+    <ProjectReference Include="..\..\FiveStarRepos.Infra.IoC\FiveStarRepos.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

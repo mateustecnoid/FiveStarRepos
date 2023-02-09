@@ -7,15 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E019F4A-B4F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{47D42667-324D-4814-BA46-EC455462D382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.API", "src\FiveStarRepos.API\FiveStarRepos.API.csproj", "{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.API", "src\FiveStarRepos.API\FiveStarRepos.API.csproj", "{6CD9D47F-E727-4F31-9D12-A2C1BE9DB1AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.UnitTests", "tests\FiveStarRepos.UnitTests\FiveStarRepos.UnitTests.csproj", "{84114943-8D2B-4F69-9E73-5DCBE264CE33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.UnitTests", "tests\FiveStarRepos.UnitTests\FiveStarRepos.UnitTests.csproj", "{84114943-8D2B-4F69-9E73-5DCBE264CE33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Domain", "src\FiveStarRepos.Domain\FiveStarRepos.Domain.csproj", "{11986753-5083-4872-A189-AD43752AFFE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.Domain", "src\FiveStarRepos.Domain\FiveStarRepos.Domain.csproj", "{11986753-5083-4872-A189-AD43752AFFE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Infra", "src\FiveStarRepos.Infra\FiveStarRepos.Infra.csproj", "{D5F83661-3AB5-4731-A2B6-025E83BB3B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.Infra.Dados", "src\FiveStarRepos.Infra\FiveStarRepos.Infra.Dados.csproj", "{D5F83661-3AB5-4731-A2B6-025E83BB3B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Application", "src\FiveStarRepos.Application\FiveStarRepos.Application.csproj", "{0F0862FD-F3ED-4BC4-9440-CE7395009187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.Application", "src\FiveStarRepos.Application\FiveStarRepos.Application.csproj", "{0F0862FD-F3ED-4BC4-9440-CE7395009187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Infra.IoC", "FiveStarRepos.Infra.IoC\FiveStarRepos.Infra.IoC.csproj", "{2E26A44B-B395-467B-97E3-CCE9665D4E9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{11986753-5083-4872-A189-AD43752AFFE5} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
 		{D5F83661-3AB5-4731-A2B6-025E83BB3B13} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
+		{2E26A44B-B395-467B-97E3-CCE9665D4E9E} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43F70848-5279-4152-B8B5-DAFFD1E8DC78}

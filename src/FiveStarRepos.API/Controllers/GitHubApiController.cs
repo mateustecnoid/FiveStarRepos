@@ -1,4 +1,5 @@
-﻿using FiveStarRepos.Infra.Data.Network.Interfaces;
+﻿using FiveStarRepos.Infra.Dados.Network.Interfaces;
+using FiveStarRepos.Infra.Data.Network.Interfaces;
 using FiveStarRepos.Infra.Data.Network.Requests;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -12,23 +13,16 @@ namespace FiveStarRepos.API.Controllers
     public class GitHubApiController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> Get([FromServices] IGitHubNetwork service) 
+        public async Task<IActionResult> Get([FromServices] IRepositorioNetwork service) 
         {
-            TopFiveReposRequest req = new()
-            {
-                Query = "language:csharp",
-                CampoOrdenacao = "stars",
-                TipoOrdenacao = "desc",
-                Pagina = 1,
-                Quantidade = 5
-            };
+            
 
-            var response = await service.Get(req);
+            var response = await service.GetRepository("csharp");
 
-            if (!response.IsSuccessStatusCode)
+            if (response is null)
                 return NoContent();
 
-            return Ok(response.Content);
+            return Ok(response);
 
         }
     }
