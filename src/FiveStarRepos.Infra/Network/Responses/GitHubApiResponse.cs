@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace FiveStarRepos.Infra.Data.Network.Responses
 {
-    public class TopFiveReposResponse
+    public class GitHubApiResponse
     {
         [JsonPropertyName("total_count")]
         public int Total { get; set; }
@@ -12,10 +12,10 @@ namespace FiveStarRepos.Infra.Data.Network.Responses
         public bool IncompleteResults { get; set; }
 
         [JsonPropertyName("items")]
-        public TopFiveReposItensResponse[] Items { get; set; }
+        public GitHubApiItensResponse[] Items { get; set; }
     }
 
-    public class TopFiveReposItensResponse
+    public class GitHubApiItensResponse
     {
         [JsonPropertyName("id")]
         public long Id { get; set; }
@@ -150,13 +150,13 @@ namespace FiveStarRepos.Infra.Data.Network.Responses
         public Uri DeploymentsUrl { get; set; }
 
         [JsonPropertyName("created_at")]
-        public DateTimeOffset CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         [JsonPropertyName("updated_at")]
-        public DateTimeOffset UpdatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
 
         [JsonPropertyName("pushed_at")]
-        public DateTimeOffset PushedAt { get; set; }
+        public DateTime PushedAt { get; set; }
 
         [JsonPropertyName("git_url")]
         public string GitUrl { get; set; }
@@ -216,7 +216,7 @@ namespace FiveStarRepos.Infra.Data.Network.Responses
         public long OpenIssuesCount { get; set; }
 
         [JsonPropertyName("license")]
-        public TopFiveReposLicenseResponse License { get; set; }
+        public GitHubApiLicenseResponse License { get; set; }
 
         [JsonPropertyName("allow_forking")]
         public bool AllowForking { get; set; }
@@ -249,10 +249,10 @@ namespace FiveStarRepos.Infra.Data.Network.Responses
         public decimal Score { get; set; }
 
         [JsonPropertyName("owner")]
-        public TopFiveReposOwnerResponse Owner { get; set; }
+        public GitHubApiOwnerResponse Owner { get; set; }
     }
 
-    public class TopFiveReposLicenseResponse
+    public class GitHubApiLicenseResponse
     {
         [JsonPropertyName("key")]
         public string Key { get; set; }
@@ -270,7 +270,7 @@ namespace FiveStarRepos.Infra.Data.Network.Responses
         public string NodeId { get; set; }
     }
 
-    public class TopFiveReposOwnerResponse
+    public class GitHubApiOwnerResponse
     {
         [JsonPropertyName("login")]
         public string Login { get; set; }

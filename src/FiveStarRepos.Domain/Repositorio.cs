@@ -18,13 +18,13 @@ namespace FiveStarRepos.Domain
         public string Linguagem { get; protected set; }
         public string BranchPadrao { get; protected set; }
 
-        public Dono Dono { get; protected set; }
-        public Licenca Licenca { get; protected set; }
+        public virtual Dono Dono { get; protected set; }
+        public virtual Licenca Licenca { get; protected set; }
 
         protected Repositorio() { }
 
         public Repositorio(string nome, string nomeCompleto, bool privado, Uri url, string descricao, DateTime dataCriacaoRepositorio, DateTime dataAtualizacaoRepositorio, long tamanho,
-                           long stars, string linguagem, string branchPadrao)
+                           long stars, string linguagem, string branchPadrao, Dono dono, Licenca licenca)
         {
             Nome = nome;
             NomeCompleto = nomeCompleto;
@@ -37,6 +37,8 @@ namespace FiveStarRepos.Domain
             Stars = stars;
             Linguagem = linguagem;
             BranchPadrao = branchPadrao;
+            Dono = dono;
+            Licenca = licenca;
 
             DataSincronizacao = DateTime.UtcNow;
         }

@@ -1,8 +1,6 @@
-﻿using FiveStarRepos.Infra.Dados.Network.Interfaces;
-using FiveStarRepos.Infra.Data.Network.Interfaces;
-using FiveStarRepos.Infra.Data.Network.Requests;
+﻿using FiveStarRepos.Application.Commands.Interfaces;
+using FiveStarRepos.Application.Queries.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace FiveStarRepos.API.Controllers
@@ -13,17 +11,22 @@ namespace FiveStarRepos.API.Controllers
     public class GitHubApiController : ControllerBase
     {
         [HttpGet]
-        public async Task<IActionResult> Get([FromServices] IRepositorioNetwork service) 
+        public async Task<IActionResult> Get([FromServices] ICriarRepositorioHandler service) 
         {
-            
+            await service.Handler();
 
-            var response = await service.GetRepository("csharp");
+            return Ok();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetRepository([FromServices] IRecuperarRepositorioQuery service, long id)
+        {
+            var response = await service.Get(id);
 
             if (response is null)
                 return NoContent();
 
             return Ok(response);
-
         }
     }
 }

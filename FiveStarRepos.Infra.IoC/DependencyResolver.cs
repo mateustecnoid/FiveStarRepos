@@ -1,4 +1,8 @@
-﻿using FiveStarRepos.Infra.Dados.Network;
+﻿using FiveStarRepos.Application.Commands.Criacao;
+using FiveStarRepos.Application.Commands.Interfaces;
+using FiveStarRepos.Application.Queries.Detalhes;
+using FiveStarRepos.Application.Queries.Interfaces;
+using FiveStarRepos.Infra.Dados.Network;
 using FiveStarRepos.Infra.Dados.Network.Interfaces;
 using FiveStarRepos.Infra.Data.Network.Interfaces;
 using FiveStarRepos.Infra.Data.Repositories;
@@ -26,7 +30,11 @@ namespace FiveStarRepos.Infra.IoC
 
             services.AddScoped<IRepositorioNetwork, RepositorioNetwork>();
 
-            services.AddRefit<IGitHubNetwork>(AppConstants.ApiGitHub, configuration)
+            services.AddScoped<ICriarRepositorioHandler, CriarRepositorioHandler>();
+            services.AddScoped<IRecuperarRepositorioQuery, DetalheRepositorioQuery>();
+
+
+            services.AddRefit<IGitHubApiNetwork>(AppConstants.ApiGitHub, configuration)
                     .UseConfigHeaders(AppConstants.ApiGitHub, configuration)
                     .AddRetryPolicy(configuration);
 

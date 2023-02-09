@@ -10,17 +10,16 @@ namespace FiveStarRepos.Domain
         public Uri AvatarUrl { get; protected set; }
         public string Tipo { get; protected set; }
         public long RepositorioId { get; protected set; }
-        public Repositorio Repositorio { get; protected set; }
+        public virtual Repositorio Repositorio { get; protected set; }
 
         protected Dono() { }
 
-        public Dono(string login, Uri url, Uri avatarUrl, string tipo, Repositorio repositorio)
+        public Dono(string login, Uri url, Uri avatarUrl, string tipo)
         {
             Login = login;
             Url = url;
             AvatarUrl = avatarUrl;
             Tipo = tipo;
-            Repositorio = repositorio;
         }
     }
 }

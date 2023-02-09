@@ -8,13 +8,13 @@ namespace FiveStarRepos.Infra.Dados.Network
 {
     public class RepositorioNetwork : IRepositorioNetwork
     {
-        private readonly IGitHubNetwork _gitHubNetwork;
+        private readonly IGitHubApiNetwork _gitHubNetwork;
 
-        public RepositorioNetwork(IGitHubNetwork gitHubNetwork) => _gitHubNetwork = gitHubNetwork;
+        public RepositorioNetwork(IGitHubApiNetwork gitHubNetwork) => _gitHubNetwork = gitHubNetwork;
 
-        public async Task<TopFiveReposResponse> GetRepository(string language)
+        public async Task<GitHubApiResponse> GetRepository(string language)
         {
-            var request = new TopFiveReposRequest()
+            var request = new GitHubApiRequest()
             {
                 Query = $"language:{language}"
             };

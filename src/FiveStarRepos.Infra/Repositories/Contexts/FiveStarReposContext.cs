@@ -16,5 +16,10 @@ namespace FiveStarRepos.Infra.Data.Repositories.Contexts
             builder.ApplyConfigurationsFromAssembly(typeof(FiveStarReposContext).Assembly);
             base.OnModelCreating(builder);
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseLazyLoadingProxies();
+        }
     }
 }

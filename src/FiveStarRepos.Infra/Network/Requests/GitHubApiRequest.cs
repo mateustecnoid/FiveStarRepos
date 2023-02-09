@@ -2,7 +2,7 @@
 
 namespace FiveStarRepos.Infra.Data.Network.Requests
 {
-    public class TopFiveReposRequest
+    public class GitHubApiRequest
     {
         [AliasAs("q")]
         public string Query { get; set; }
