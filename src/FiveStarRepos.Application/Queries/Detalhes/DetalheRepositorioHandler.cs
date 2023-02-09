@@ -4,11 +4,11 @@ using System.Threading.Tasks;
 
 namespace FiveStarRepos.Application.Queries.Detalhes
 {
-    public class DetalheRepositorioQuery : IRecuperarRepositorioQuery
+    public class DetalheRepositorioHandler : IRecuperarRepositorioHandler
     {
         private readonly IRepositorioRepository _repositorioRepository;
 
-        public DetalheRepositorioQuery(IRepositorioRepository repositorioRepository) => _repositorioRepository = repositorioRepository;
+        public DetalheRepositorioHandler(IRepositorioRepository repositorioRepository) => _repositorioRepository = repositorioRepository;
 
         public async Task<DetalheRepositorioResponse> Get(long id)
         {

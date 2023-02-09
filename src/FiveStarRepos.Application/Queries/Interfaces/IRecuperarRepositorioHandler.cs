@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace FiveStarRepos.Application.Queries.Interfaces
 {
-    public interface IRecuperarRepositorioQuery
+    public interface IRecuperarRepositorioHandler
     {
         Task<DetalheRepositorioResponse> Get(long id);
     }

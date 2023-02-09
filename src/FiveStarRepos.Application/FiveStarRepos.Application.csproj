@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Queries\Repositorios\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\FiveStarRepos.Domain\FiveStarRepos.Domain.csproj" />
     <ProjectReference Include="..\FiveStarRepos.Infra\FiveStarRepos.Infra.Dados.csproj" />
   </ItemGroup>

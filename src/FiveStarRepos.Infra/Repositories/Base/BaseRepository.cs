@@ -79,5 +79,10 @@ namespace FiveStarRepos.Infra.Data.Repositories.Base
         {
             return Set.FirstOrDefaultAsync(predicate);
         }
+
+        public async Task<int> CountAsync()
+        {
+            return await Set.CountAsync();
+        }
     }
 }

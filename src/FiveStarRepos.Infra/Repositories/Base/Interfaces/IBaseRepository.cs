@@ -19,5 +19,6 @@ namespace FiveStarRepos.Infra.Data.Repositories.Base.Interfaces
         Task InsertManyAsync(TEntity[] entities);
         Task<bool> CommitAsync();
         Task UpdateAsync(TEntity TEntity);
+        Task<int> CountAsync();
     }
 }
