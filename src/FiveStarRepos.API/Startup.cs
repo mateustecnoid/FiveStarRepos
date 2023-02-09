@@ -1,7 +1,9 @@
 ﻿using FiveStarRepos.API.Filters;
+using FiveStarRepos.Infra.Data.Repositories.Contexts;
 using FiveStarRepos.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -21,7 +23,7 @@ namespace FiveStarRepos.API
             services.AddControllers(options =>
             {
                 options.Filters.Add(typeof(FiveStarReposExceptionFilter));
-            });
+            });            
 
             services.AddSwaggerGen(c =>
             {

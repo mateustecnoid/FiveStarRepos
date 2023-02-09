@@ -1,0 +1,17 @@
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.csproj.AssemblyReference.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.AssemblyInfoInputs.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.AssemblyInfo.cs
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.csproj.CoreCompileInputs.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.deps.json
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.runtimeconfig.json
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Domain.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.csproj.CopyComplete
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\refint\FiveStarRepos.Infra.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.genruntimeconfig.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\ref\FiveStarRepos.Infra.dll
