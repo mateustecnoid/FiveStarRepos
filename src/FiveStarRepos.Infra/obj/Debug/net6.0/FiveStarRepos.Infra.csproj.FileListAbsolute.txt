@@ -10,3 +10,6 @@ D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infr
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\refint\FiveStarRepos.Infra.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.pdb
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\ref\FiveStarRepos.Infra.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Domain.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.csproj.CopyComplete

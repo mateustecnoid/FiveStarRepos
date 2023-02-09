@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System;
+﻿using System;
 using System.Text.Json.Serialization;
 
 namespace FiveStarRepos.Infra.Data.Network.Responses

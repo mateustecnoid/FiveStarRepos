@@ -471,10 +471,21 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "FiveStarRepos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FiveStarRepos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FiveStarRepos.Domain.dll": {}
+        }
+      },
       "FiveStarRepos.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FiveStarRepos.Domain": "1.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
@@ -1182,6 +1193,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "FiveStarRepos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FiveStarRepos.Domain/FiveStarRepos.Domain.csproj",
+      "msbuildProject": "../FiveStarRepos.Domain/FiveStarRepos.Domain.csproj"
     },
     "FiveStarRepos.Infra/1.0.0": {
       "type": "project",
