@@ -1,6 +1,7 @@
 ﻿using FiveStarRepos.Application.Base;
 using FiveStarRepos.Application.Commands.Interfaces;
 using FiveStarRepos.Domain;
+using FiveStarRepos.Domain.Resources;
 using FiveStarRepos.Infra.Dados.Helper;
 using FiveStarRepos.Infra.Dados.Network.Interfaces;
 using FiveStarRepos.Infra.Data.Repositories.Interfaces;
@@ -29,12 +30,15 @@ namespace FiveStarRepos.Application.Commands.Criacao
             {
                 var resultado = await _repositorioNetwork.GetRepository(language);
 
+                if (resultado is null) 
+                    return ResultResponse<CriarRepositorioResponse>.BuildFalha(MensagemResource.ConsultaNaoRetornouRegistros);
+
                 repositorios.AddRange(resultado.Select(response => CriarRepositorioFactory.Build(response)));
             }
-                
-            if(!repositorios.Any(x => x.IsValid))
+
+            if (!repositorios.Any(x => x.IsValid))
             {
-               var erros = repositorios.SelectMany(x => x.ValidationResult.Errors.Select(y => y.ErrorMessage)).Distinct();
+                var erros = repositorios.SelectMany(x => x.ValidationResult.Errors.Select(y => y.ErrorMessage)).Distinct();
 
                 return ResultResponse<CriarRepositorioResponse>.BuildFalha(erros);
             }

@@ -4,6 +4,68 @@
     "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj": {}
   },
   "projects": {
+    "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj",
+        "projectName": "FiveStarRepos.Application",
+        "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj",
+        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Domain\\FiveStarRepos.Domain.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Domain\\FiveStarRepos.Domain.csproj"
+              },
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Domain\\FiveStarRepos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -65,14 +127,14 @@
         }
       }
     },
-    "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj": {
+    "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj",
-        "projectName": "FiveStarRepos.UnitTests",
-        "projectPath": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj",
+        "projectUniqueName": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj",
+        "projectName": "FiveStarRepos.Infra.Dados",
+        "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj",
         "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\obj\\",
+        "outputPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,9 +167,116 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj",
+        "projectName": "FiveStarRepos.UnitTests",
+        "projectPath": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj"
+              },
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Domain\\FiveStarRepos.Domain.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Domain\\FiveStarRepos.Domain.csproj"
+              },
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

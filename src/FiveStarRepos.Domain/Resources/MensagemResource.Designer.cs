@@ -61,6 +61,15 @@ namespace FiveStarRepos.Domain.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A consulta retornou registros.
+        /// </summary>
+        public static string ConsultaNaoRetornouRegistros {
+            get {
+                return ResourceManager.GetString("ConsultaNaoRetornouRegistros", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Registro não pode ser encontrado..
         /// </summary>
         public static string RegistroNaoEncontrado {
