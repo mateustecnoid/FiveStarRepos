@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FiveStarRepos.Infra.Helper
+namespace FiveStarRepos.Infra.IoC.Configuration
 {
     public abstract class ValueSettings
     {

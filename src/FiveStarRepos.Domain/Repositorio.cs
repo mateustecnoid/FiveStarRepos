@@ -1,4 +1,5 @@
 ﻿using FiveStarRepos.Domain.Base;
+using FiveStarRepos.Domain.Validators;
 using System;
 
 namespace FiveStarRepos.Domain
@@ -41,6 +42,9 @@ namespace FiveStarRepos.Domain
             Licenca = licenca;
 
             DataSincronizacao = DateTime.UtcNow;
+            Validar();
         }
+
+        public override bool Validar() => Validate(this, new RepositorioValidation());
     }
 }

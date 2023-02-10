@@ -1,4 +1,4 @@
-﻿using FiveStarRepos.Application.Queries.Base;
+﻿using FiveStarRepos.Application.Base;
 using FiveStarRepos.Application.Queries.Interfaces;
 using FiveStarRepos.Application.Queries.Repositorios;
 using FiveStarRepos.Infra.Data.Repositories.Interfaces;
@@ -14,13 +14,13 @@ namespace FiveStarRepos.Application.Queries.ListarRepositorios
 
         public async Task<PagedResultResponse<ListarRepositoriosResponse>> SearchAsync(ListarRepositoriosQuery query)
         {
-            var repositorios = await _repositorioRepository.SearchAsync(query.Page, query.PageSize);
+            var repositorios = await _repositorioRepository.SearchAsync(query.Pagina, query.TamanhoPagina);
             var total = await _repositorioRepository.CountAsync();
 
             if (repositorios is null)
                 return null;
 
-            return ListarRepositoriosFactory.Build(query.Page, query.PageSize, total, repositorios);
+            return ListarRepositoriosFactory.Build(query.Pagina, query.TamanhoPagina, total, repositorios);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using FiveStarRepos.Domain.Base;
+using FiveStarRepos.Domain.Validators;
 using System;
 
 namespace FiveStarRepos.Domain
@@ -18,6 +19,9 @@ namespace FiveStarRepos.Domain
             Chave = chave;
             Nome = nome;
             Url = url;
+            Validar();
         }
+
+        public override bool Validar() => Validate(this, new LicencaValidation());
     }
 }

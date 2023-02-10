@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mXIJaDj3L79J/3hi3wP6282cWm5SSNsk8MEc08xHMp6cuKqq2VoMh42yY1QeaW9jqO6EMMkiLWog2SKcz9Z3KQ==",
+  "dgSpecHash": "FxEimfHhDUcIvgxvnQ4GDlh5vj2SEUj0vMRO7EwavQIdxEXkV9J/KlwzCPEYNT7jJsyZ30b7BdVuXJbKnJMKGQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Domain\\FiveStarRepos.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mateus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

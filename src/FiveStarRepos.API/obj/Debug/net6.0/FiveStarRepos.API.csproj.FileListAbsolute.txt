@@ -92,3 +92,4 @@ D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\FiveStarRepos.Applic
 D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\FiveStarRepos.Application.pdb
 D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\Castle.Core.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\FluentValidation.dll

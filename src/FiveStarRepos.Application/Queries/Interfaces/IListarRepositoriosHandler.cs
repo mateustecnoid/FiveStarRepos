@@ -1,4 +1,4 @@
-﻿using FiveStarRepos.Application.Queries.Base;
+﻿using FiveStarRepos.Application.Base;
 using FiveStarRepos.Application.Queries.ListarRepositorios;
 using FiveStarRepos.Application.Queries.Repositorios;
 using System.Collections.Generic;

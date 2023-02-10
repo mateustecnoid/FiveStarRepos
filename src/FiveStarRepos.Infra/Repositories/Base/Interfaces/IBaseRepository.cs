@@ -20,5 +20,6 @@ namespace FiveStarRepos.Infra.Data.Repositories.Base.Interfaces
         Task<bool> CommitAsync();
         Task UpdateAsync(TEntity TEntity);
         Task<int> CountAsync();
+        void ClearTable();
     }
 }

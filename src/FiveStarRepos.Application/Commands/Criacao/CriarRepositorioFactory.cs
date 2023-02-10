@@ -1,31 +1,23 @@
 ﻿using FiveStarRepos.Domain;
 using FiveStarRepos.Infra.Data.Network.Responses;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace FiveStarRepos.Application.Commands.Criacao
 {
     public static class CriarRepositorioFactory
     {
-        public static IEnumerable<Repositorio> Build(GitHubApiResponse response)
+        public static Repositorio Build(GitHubApiItensResponse response)
         {
-            if (response is null || !response.Items.Any()) return null;
+            if (response is null) return null;
 
-            IList<Repositorio> repositorios = new List<Repositorio>(5);
+            Dono dono = response.Owner is not null ? new(response.Owner.Login, response.Owner.HtmlUrl, response.Owner.AvatarUrl, response.Owner.Type) : null;
 
-            foreach (var item in response.Items)
-            {
-                var dono = new Dono(item.Owner.Login, item.Owner.HtmlUrl, item.Owner.AvatarUrl, item.Owner.Type);
+            Licenca licenca = response.License is not null ? new Licenca(response.License.Key, response.License.Name, response.License.Url) : null;
 
-                Licenca licenca = item.License is not null ? new Licenca(item.License.Key, item.License.Name, item.License.Url) : null;
+            var repositorio = new Repositorio(response.Name, response.FullName, response.Private, response.HtmlUrl, response.Description, response.CreatedAt,
+                                              response.UpdatedAt, response.Size, response.StargazersCount, response.Language, response.DefaultBranch, dono, licenca);
 
-                var repositorio = new Repositorio(item.Name, item.FullName, item.Private, item.HtmlUrl, item.Description, item.CreatedAt,
-                                                  item.UpdatedAt, item.Size, item.StargazersCount, item.Language, item.DefaultBranch, dono, licenca);
 
-                repositorios.Add(repositorio);
-            }
-
-            return repositorios;
+            return repositorio;
         }
     }
 }

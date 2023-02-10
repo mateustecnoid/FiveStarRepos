@@ -10,7 +10,7 @@ namespace FiveStarRepos.API.Controllers
     [ApiController]
     [Route("api/v1/[controller]")]
     [Produces("application/json")]
-    public class GitHubApiController : ControllerBase
+    public class RepositoriosController : ControllerBase
     {
         /// <summary>
         /// Registra os repositórios
@@ -20,13 +20,16 @@ namespace FiveStarRepos.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Get([FromServices] ICriarRepositorioHandler service) 
         {
-            await service.Handler();
+            var response = await service.Handler();
 
-            return StatusCode(StatusCodes.Status201Created);
+            if (!response.Sucesso)
+                return BadRequest(response);
+
+            return StatusCode(StatusCodes.Status201Created, response);
         }
 
         /// <summary>
-        /// Lista um repositório por id
+        /// Recupera um repositório por id
         /// </summary>
         /// <param name="service"></param>
         /// <param name="id"></param>
@@ -36,12 +39,18 @@ namespace FiveStarRepos.API.Controllers
         {
             var response = await service.Get(id);
 
-            if (response is null)
-                return NoContent();
+            if (!response.Sucesso)
+                return BadRequest(response);
 
             return Ok(response);
         }
 
+        /// <summary>
+        /// Busca paginada de repositorios
+        /// </summary>
+        /// <param name="service"></param>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> GetRepository([FromServices] IListarRepositoriosHandler service, [FromQuery] ListarRepositoriosQuery request)
         {

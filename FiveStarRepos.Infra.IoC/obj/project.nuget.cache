@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GBLMdDApBeDvQ6FXJeXJlthyi3wPTPw+OUJ1/HpCguH69Bl5VO8gHFS4Lou7wjMYjk9qK5qiGJA36YpFtkau7Q==",
+  "dgSpecHash": "uCA4D3z5AeRVtSWS4J8FR7GAXrX14VwLFt3sBg+8SqLWs6QmReVAfGGewPwHMahMuPA3sD1RKqepbZP5r60STA==",
   "success": true,
   "projectFilePath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\Mateus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

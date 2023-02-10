@@ -84,5 +84,10 @@ namespace FiveStarRepos.Infra.Data.Repositories.Base
         {
             return await Set.CountAsync();
         }
+
+        public void ClearTable()
+        {
+           Set.RemoveRange(Set);
+        }
     }
 }

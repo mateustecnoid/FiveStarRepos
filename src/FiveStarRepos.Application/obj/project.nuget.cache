@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5IubChBlnbVjFMIkkbp6nSYCkaVpNO4rL9+gNQMW/76bhec/ehb1fbuf2q7BL/5RRalGR0vUQDAtY1O6a3FGTQ==",
+  "dgSpecHash": "mkEPQIbLFoY9fgG5KBiISlbhupJeplg52IbFt7Fcn8tShx1XFyBlq6eaDEDeA/DPw0nhtRKlaWyRgjegHMAKvg==",
   "success": true,
   "projectFilePath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateus\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\Mateus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",

@@ -1,4 +1,5 @@
 ﻿using FiveStarRepos.Domain.Base;
+using FiveStarRepos.Domain.Validators;
 using System;
 
 namespace FiveStarRepos.Domain
@@ -20,6 +21,9 @@ namespace FiveStarRepos.Domain
             Url = url;
             AvatarUrl = avatarUrl;
             Tipo = tipo;
+            Validar();
         }
+
+        public override bool Validar() => Validate(this, new DonoValidation());
     }
 }

@@ -1,9 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿using FiveStarRepos.Application.Base;
+using FiveStarRepos.Application.Commands.Criacao;
+using System.Threading.Tasks;
 
 namespace FiveStarRepos.Application.Commands.Interfaces
 {
     public interface ICriarRepositorioHandler
     {
-        Task Handler();
+        Task<ResultResponse<CriarRepositorioResponse>> Handler();
     }
 }

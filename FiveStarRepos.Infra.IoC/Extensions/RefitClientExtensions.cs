@@ -1,4 +1,4 @@
-﻿using FiveStarRepos.Infra.Helper;
+﻿using FiveStarRepos.Infra.IoC.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Refit;

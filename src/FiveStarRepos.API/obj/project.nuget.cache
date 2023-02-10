@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5DmMrb752CT07W/WsZ4wwlYKDYCYzFVJgBS7cYUZTkaxKxq6zgQStrNKOZh8UM1CCakj6v5U5/f+rEWi2Ktrfw==",
+  "dgSpecHash": "MzVqcidSKpetuXGbSDDhCJtL1KqD7nIzHIQdouwILXl5WZoNuAx+WjHXUM/fzCIOCp34BSv9Jimw3h1O9Jaozg==",
   "success": true,
   "projectFilePath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.API\\FiveStarRepos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\Mateus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.0\\microsoft.data.sqlclient.5.1.0.nupkg.sha512",

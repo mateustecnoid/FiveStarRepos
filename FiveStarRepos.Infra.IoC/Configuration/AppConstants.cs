@@ -1,4 +1,4 @@
-﻿namespace FiveStarRepos.Infra.Helper
+﻿namespace FiveStarRepos.Infra.IoC.Configuration
 {
     public static class AppConstants
     {
