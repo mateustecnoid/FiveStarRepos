@@ -97,3 +97,7 @@ D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\obj\Debug\net6.0\refint\FiveS
 D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\obj\Debug\net6.0\FiveStarRepos.UnitTests.pdb
 D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\obj\Debug\net6.0\FiveStarRepos.UnitTests.genruntimeconfig.cache
 D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\obj\Debug\net6.0\ref\FiveStarRepos.UnitTests.dll
+D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\bin\Debug\net6.0\FluentValidation.dll
+D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\bin\Debug\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\tests\FiveStarRepos.UnitTests\bin\Debug\net6.0\FiveStarRepos.Domain.pdb

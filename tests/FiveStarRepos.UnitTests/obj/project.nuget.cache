@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UchGG19iBQWKDo+nQl2J2cyx4I5KMCUF/W3SA/dX9pDmsyiHQQpt2BsL7qtQmEjAXSC7xS2KmCrwBncKvShQrA==",
+  "dgSpecHash": "a54iQJxGzJuIogyWmDV2Y+aEnW6Ym8fPHKh9QiKNMGNuzKikHio1bVwB7RNjs+WAuZb9K41fwCJy4rt6YVUMnQ==",
   "success": true,
   "projectFilePath": "D:\\Git\\FiveStarRepos\\tests\\FiveStarRepos.UnitTests\\FiveStarRepos.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateus\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Mateus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
