@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.Infra.Dados",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.Application", "src\FiveStarRepos.Application\FiveStarRepos.Application.csproj", "{0F0862FD-F3ED-4BC4-9440-CE7395009187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveStarRepos.Infra.IoC", "FiveStarRepos.Infra.IoC\FiveStarRepos.Infra.IoC.csproj", "{2E26A44B-B395-467B-97E3-CCE9665D4E9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiveStarRepos.Infra.IoC", "src\FiveStarRepos.Infra.IoC\FiveStarRepos.Infra.IoC.csproj", "{91CAA7A5-583D-420A-B987-90CBA44F2F6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,10 @@ Global
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E26A44B-B395-467B-97E3-CCE9665D4E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CAA7A5-583D-420A-B987-90CBA44F2F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CAA7A5-583D-420A-B987-90CBA44F2F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CAA7A5-583D-420A-B987-90CBA44F2F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CAA7A5-583D-420A-B987-90CBA44F2F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,7 +59,7 @@ Global
 		{11986753-5083-4872-A189-AD43752AFFE5} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
 		{D5F83661-3AB5-4731-A2B6-025E83BB3B13} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
 		{0F0862FD-F3ED-4BC4-9440-CE7395009187} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
-		{2E26A44B-B395-467B-97E3-CCE9665D4E9E} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
+		{91CAA7A5-583D-420A-B987-90CBA44F2F6C} = {6E019F4A-B4F0-4494-9826-E5BB4EB9457F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43F70848-5279-4152-B8B5-DAFFD1E8DC78}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uCA4D3z5AeRVtSWS4J8FR7GAXrX14VwLFt3sBg+8SqLWs6QmReVAfGGewPwHMahMuPA3sD1RKqepbZP5r60STA==",
+  "dgSpecHash": "3q/awamEL3544u6htflFwVT2qBV62wkY8MZDhRShUgQBftf5tKexJqKbepqqjVJaef/w6YTK31zb41WmbDs08A==",
   "success": true,
-  "projectFilePath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
+  "projectFilePath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,107 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj": {}
+    "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj": {}
   },
   "projects": {
-    "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
-        "projectName": "FiveStarRepos.Infra.IoC",
-        "projectPath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
-        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj": {
-                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj"
-              },
-              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj": {
-                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Refit.HttpClientFactory": {
-              "target": "Package",
-              "version": "[6.3.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -203,6 +105,104 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
+        "projectName": "FiveStarRepos.Infra.IoC",
+        "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Application\\FiveStarRepos.Application.csproj"
+              },
+              "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj": {
+                "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra\\FiveStarRepos.Infra.Dados.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit.HttpClientFactory": {
+              "target": "Package",
+              "version": "[6.3.2, )"
             }
           },
           "imports": [

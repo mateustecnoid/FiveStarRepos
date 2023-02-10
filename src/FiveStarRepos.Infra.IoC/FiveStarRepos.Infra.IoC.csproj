@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\FiveStarRepos.Application\FiveStarRepos.Application.csproj" />
-    <ProjectReference Include="..\src\FiveStarRepos.Infra\FiveStarRepos.Infra.Dados.csproj" />
+    <ProjectReference Include="..\FiveStarRepos.Application\FiveStarRepos.Application.csproj" />
+    <ProjectReference Include="..\FiveStarRepos.Infra\FiveStarRepos.Infra.Dados.csproj" />
   </ItemGroup>
 
 </Project>

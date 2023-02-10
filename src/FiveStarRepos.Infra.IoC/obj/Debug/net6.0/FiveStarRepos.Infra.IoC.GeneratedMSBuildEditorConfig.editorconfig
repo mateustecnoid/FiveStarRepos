@@ -9,4 +9,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FiveStarRepos.Infra.IoC
-build_property.ProjectDir = D:\Git\FiveStarRepos\FiveStarRepos.Infra.IoC\
+build_property.ProjectDir = D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\

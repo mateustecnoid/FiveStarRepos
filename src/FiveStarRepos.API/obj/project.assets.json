@@ -8150,8 +8150,8 @@
     },
     "FiveStarRepos.Infra.IoC/1.0.0": {
       "type": "project",
-      "path": "../../FiveStarRepos.Infra.IoC/FiveStarRepos.Infra.IoC.csproj",
-      "msbuildProject": "../../FiveStarRepos.Infra.IoC/FiveStarRepos.Infra.IoC.csproj"
+      "path": "../FiveStarRepos.Infra.IoC/FiveStarRepos.Infra.IoC.csproj",
+      "msbuildProject": "../FiveStarRepos.Infra.IoC/FiveStarRepos.Infra.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8187,8 +8187,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj": {
-              "projectPath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj"
+            "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj": {
+              "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj"
             }
           }
         }

@@ -8002,18 +8002,18 @@
     },
     "FiveStarRepos.Application/1.0.0": {
       "type": "project",
-      "path": "../src/FiveStarRepos.Application/FiveStarRepos.Application.csproj",
-      "msbuildProject": "../src/FiveStarRepos.Application/FiveStarRepos.Application.csproj"
+      "path": "../FiveStarRepos.Application/FiveStarRepos.Application.csproj",
+      "msbuildProject": "../FiveStarRepos.Application/FiveStarRepos.Application.csproj"
     },
     "FiveStarRepos.Domain/1.0.0": {
       "type": "project",
-      "path": "../src/FiveStarRepos.Domain/FiveStarRepos.Domain.csproj",
-      "msbuildProject": "../src/FiveStarRepos.Domain/FiveStarRepos.Domain.csproj"
+      "path": "../FiveStarRepos.Domain/FiveStarRepos.Domain.csproj",
+      "msbuildProject": "../FiveStarRepos.Domain/FiveStarRepos.Domain.csproj"
     },
     "FiveStarRepos.Infra.Dados/1.0.0": {
       "type": "project",
-      "path": "../src/FiveStarRepos.Infra/FiveStarRepos.Infra.Dados.csproj",
-      "msbuildProject": "../src/FiveStarRepos.Infra/FiveStarRepos.Infra.Dados.csproj"
+      "path": "../FiveStarRepos.Infra/FiveStarRepos.Infra.Dados.csproj",
+      "msbuildProject": "../FiveStarRepos.Infra/FiveStarRepos.Infra.Dados.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8036,11 +8036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
+      "projectUniqueName": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
       "projectName": "FiveStarRepos.Infra.IoC",
-      "projectPath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
+      "projectPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\FiveStarRepos.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\FiveStarRepos\\FiveStarRepos.Infra.IoC\\obj\\",
+      "outputPath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
