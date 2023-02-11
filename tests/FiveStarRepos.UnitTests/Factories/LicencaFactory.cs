@@ -39,12 +39,5 @@ namespace FiveStarRepos.UnitTests.Factories
                 nome: FactoryUtil.RandomString(51),
                 url: new Uri("https://api.github.com/licenses/mit")
             );
-
-        public static Licenca LicencaComUrlVazia => new
-            (
-                chave: "mit",
-                nome: "MIT License",
-                url: null
-            );
     }
 }

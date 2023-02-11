@@ -15,8 +15,7 @@ namespace FiveStarRepos.Domain.Validators
 
             RuleFor(x => x.Url).NotEmpty().WithMessage(ValidationResource.PropriedadeVazia);
 
-            RuleFor(x => x.Descricao).NotEmpty().WithMessage(ValidationResource.PropriedadeVazia)
-                                     .MaximumLength(500).WithMessage(ValidationResource.PropriedadeExcedeuTamanhoMaximo);
+            RuleFor(x => x.Descricao).MaximumLength(500).When(y => !string.IsNullOrEmpty(y.Descricao)).WithMessage(ValidationResource.PropriedadeExcedeuTamanhoMaximo);
 
             RuleFor(x => x.DataCriacaoRepositorio).NotEqual(new System.DateTime()).WithMessage(ValidationResource.PropriedadeComDataInvalida);
 

@@ -1,13 +1,22 @@
-.pager, .pager p{
+.pager,
+.pager p {
     float: right;
+}
+
+.row .pesquisa .form-inline {
+    float: right;
+}
+
+.form-inline button.sincronizar {
+    margin-left: 10px !important;
 }
 
 th {
     text-align: center !important;
 }
 
-@media (min-width: 1200px){
-    .container{
+@media (min-width: 1200px) {
+    .container {
         max-width: 1350px !important;
     }
 }

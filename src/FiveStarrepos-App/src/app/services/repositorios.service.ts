@@ -12,10 +12,15 @@ export class RepositorioService extends BaseService {
         super();
     }
 
+    sincronizar() {
+        return this.http.post(this.baseUrl + `Repositorios`, null);
+    }
+
     getRepositorios(paginacao: PaginacaoModel) {
         let params = new HttpParams();
         params = params.append('pagina', `${paginacao.pagina}`);
         params = params.append('tamanhoPagina', `${paginacao.tamanhoPagina}`);
+        params = params.append('termo', `${paginacao.termo != undefined ? paginacao.termo : ""}`);
 
         return this.http.get(this.baseUrl + `Repositorios`, { params: params });
     }

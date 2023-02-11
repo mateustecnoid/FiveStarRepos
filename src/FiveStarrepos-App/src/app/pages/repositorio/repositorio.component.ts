@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { RepositorioModel } from 'src/app/models/repositorio.model';
 import { RepositorioService } from 'src/app/services/repositorios.service';
 
@@ -13,7 +13,8 @@ export class RepositorioComponent implements OnInit {
     repositorio: any;
 
     constructor(private route: ActivatedRoute,
-                private repositorioService: RepositorioService) { }
+        private repositorioService: RepositorioService,
+        private router: Router) { }
 
     ngOnInit(): void {
         this.route.params.subscribe(data => {
@@ -22,6 +23,10 @@ export class RepositorioComponent implements OnInit {
                 this.repositorio = sub;
             });
         });
+    }
+
+    voltar() {
+        this.router.navigate(['']);
     }
 
 }

@@ -6,6 +6,15 @@
                 <div class="card-body">
                     <h5 class="card-title">Repositórios</h5>
                 </div>
+                <div class="row pesquisa">
+                    <div class="col-lg-12">
+                        <div class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" [(ngModel)]="paginacao.termo">
+                            <button class="btn btn-outline-primary my-2 my-sm-0" (click)="pesquisar()">Pesquisar</button>
+                            <button class="btn btn-primary my-2 my-sm-0 sincronizar" (click)="sincronizar()">Sincronizar</button>
+                        </div>
+                    </div>
+                </div>
                 <hr>
                 <table class="table table-responsive-lg table-striped table-bordered table-hover table-dark">
                     <thead>
@@ -57,13 +66,14 @@
                             <a class="page-link" (click)="paginaAnterior()">Anterior</a>
                         </li>
                         <li class="page-item">
-                            <span class="page-link"> Pagina {{paginacao.pagina}} de {{ (repositorios.total / paginacao.tamanhoPagina) | number: '1.0-0'}}</span>
+                            <span class="page-link"> Pagina {{paginacao.pagina}} de {{ (repositorios.total /
+                                paginacao.tamanhoPagina) | number: '1.0-0'}}</span>
                         </li>
                         <li class="page-item">
                             <a class="page-link" (click)="proximaPagina()">Proximo</a>
                         </li>
                     </ul>
-                </nav>             
+                </nav>
             </div>
         </div>
     </div>

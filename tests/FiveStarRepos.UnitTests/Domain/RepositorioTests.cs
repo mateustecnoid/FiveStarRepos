@@ -66,16 +66,6 @@ namespace FiveStarRepos.UnitTests.Domain
         }
 
         [Fact]
-        public void Dado_Repositorio_Invalido_Com_Descricao_Vazio_Quando_Validar_Entao_Erro()
-        {
-            var repositorio = RepositorioFactory.RepositorioComDescricaoVazio;
-
-            Assert.NotNull(repositorio);
-            Assert.False(repositorio.IsValid);
-            Assert.NotEmpty(repositorio.ValidationResult.Errors);
-        }
-
-        [Fact]
         public void Dado_Repositorio_Invalido_Com_Tamanho_Descricao_Excedido_Quando_Validar_Entao_Erro()
         {
             var repositorio = RepositorioFactory.RepositorioComTamanhoDescricaoExcedido;

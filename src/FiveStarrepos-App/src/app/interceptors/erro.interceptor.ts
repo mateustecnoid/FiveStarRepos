@@ -15,9 +15,9 @@ export class ErroInterceptor implements HttpInterceptor {
             .pipe(catchError(erro => {
 
                 if (erro.status === 400) {
-                    let mensagems = erro.error.falhas;
-
-                    mensagems.forEach(mensagem => {
+                    let mensagens = erro.error.falhas;
+                    
+                    mensagens.forEach(mensagem => {
                         this.alertService.aviso(mensagem);
                     });
 

@@ -15,9 +15,20 @@ namespace FiveStarRepos.Infra.Data.Repositories
         {
         }
 
-        public async Task<IEnumerable<Repositorio>> SearchAsync(int page, int pageSize)
+        public async Task<IEnumerable<Repositorio>> SearchAsync(string termo, int page, int pageSize)
         {
             var repositorios = Set.AsQueryable();
+
+            if (!string.IsNullOrEmpty(termo))
+            {
+                repositorios = repositorios.Where(x => x.Nome.Contains(termo) ||
+                                                       x.NomeCompleto.Contains(termo) ||
+                                                       x.Descricao.Contains(termo) ||
+                                                       x.Linguagem.Contains(termo) ||
+                                                       x.BranchPadrao.Contains(termo) ||
+                                                       x.Dono.Login.Contains(termo) ||
+                                                       x.Licenca.Nome.Contains(termo));
+            }
 
             return await repositorios.Skip((page - 1) * pageSize)
                                      .Take(pageSize)

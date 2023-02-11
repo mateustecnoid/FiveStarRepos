@@ -14,7 +14,7 @@ namespace FiveStarRepos.Application.Queries.ListarRepositorios
 
         public async Task<PagedResultResponse<ListarRepositoriosResponse>> SearchAsync(ListarRepositoriosQuery query)
         {
-            var repositorios = await _repositorioRepository.SearchAsync(query.Pagina, query.TamanhoPagina);
+            var repositorios = await _repositorioRepository.SearchAsync(query.Termo, query.Pagina, query.TamanhoPagina);
             var total = await _repositorioRepository.CountAsync();
 
             if (repositorios is null)

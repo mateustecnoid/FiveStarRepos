@@ -22,7 +22,7 @@
                         <p> <strong>Data de atualização do repositório: </strong>{{repositorio.dado.dataAtualizacaoRepositorio | date: 'dd/MM/yyyy - HH:mm'}}</p>
                     </div>
                 </div>
-                <div *ngIf="repositorio" class="row" style="margin: 10px 0px">
+                <div *ngIf="repositorio" class="row detalhe">
                     <div class="col-lg-12">
                         <div class="accordion" id="accordionExample">
                             <div class="card">
@@ -60,6 +60,12 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row detalhe">
+                    <div class="col-lg-12">
+                        <button type="button" class="btn btn-primary" (click)="voltar()">Voltar</button>
                     </div>
                 </div>
             </div>

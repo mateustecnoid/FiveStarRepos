@@ -26,8 +26,7 @@ namespace FiveStarRepos.Infra.Data.Repositories.Configurations
                    .IsRequired();
 
             builder.Property(x => x.Descricao)
-                   .HasMaxLength(500)
-                   .IsRequired();
+                   .HasMaxLength(500);
 
             builder.Property(x => x.DataSincronizacao)
                    .IsRequired();

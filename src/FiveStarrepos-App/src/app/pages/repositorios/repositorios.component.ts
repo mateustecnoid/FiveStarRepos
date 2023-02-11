@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { PaginacaoModel } from 'src/app/models/paginacao.model';
+import { AlertService } from 'src/app/services/alert.service';
 import { RepositorioService } from 'src/app/services/repositorios.service';
 
 @Component({
@@ -13,7 +14,8 @@ export class RepositoriosComponent implements OnInit {
     paginacao = new PaginacaoModel(1, 10);
 
     constructor(private repositorioService: RepositorioService,
-                private router: Router) { }
+                private router: Router,
+                private alertService: AlertService) { }
 
     ngOnInit(): void {
         this.obterRepositorios();
@@ -35,7 +37,19 @@ export class RepositoriosComponent implements OnInit {
         this.obterRepositorios();
     }
 
+    pesquisar(){
+        this.paginacao.pagina = 1
+        this.obterRepositorios();
+    }
+
     exibir(id: number) {
         this.router.navigate([`repositorio/${id}`]);
+    }
+
+    sincronizar(){
+        this.repositorioService.sincronizar().subscribe(sub =>{
+            this.alertService.sucesso("Novos repositórios sincronizados com sucesso!")
+            this.obterRepositorios();
+        })
     }
 }

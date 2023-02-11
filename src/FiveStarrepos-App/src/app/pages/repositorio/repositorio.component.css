@@ -8,3 +8,11 @@
 .card > hr{
     margin: 10px 15px;
 }
+
+.row .detalhe{
+    margin: 10px 0px
+}
+
+.row .detalhe button{
+    float: right;
+}

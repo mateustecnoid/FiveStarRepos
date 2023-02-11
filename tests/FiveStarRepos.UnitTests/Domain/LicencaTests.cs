@@ -54,15 +54,5 @@ namespace FiveStarRepos.UnitTests.Domain
             Assert.False(licenca.IsValid);
             Assert.NotEmpty(licenca.ValidationResult.Errors);
         }
-
-        [Fact]
-        public void Dado_Licenca_Invalida_Com_Url_Invalido_Entao_Erro()
-        {
-            var licenca = LicencaFactory.LicencaComUrlVazia;
-
-            Assert.NotNull(licenca);
-            Assert.False(licenca.IsValid);
-            Assert.NotEmpty(licenca.ValidationResult.Errors);
-        }
     }
 }

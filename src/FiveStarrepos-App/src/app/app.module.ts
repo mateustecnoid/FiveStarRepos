@@ -13,6 +13,7 @@ import { RepositoriosComponent } from './pages/repositorios/repositorios.compone
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RepositorioComponent } from './pages/repositorio/repositorio.component';
 import { ErroInterceptor } from './interceptors/erro.interceptor';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ErroInterceptor } from './interceptors/erro.interceptor';
     AppRoutingModule,
     HttpClientModule,
     ToastrModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule 
   ],
   providers: [
     AlertService,

@@ -20,8 +20,7 @@ namespace FiveStarRepos.Infra.Data.Repositories.Configurations
                    .IsRequired();
 
             builder.Property(x => x.Url)
-                   .HasMaxLength(100)
-                   .IsRequired();
+                   .HasMaxLength(100);
 
             builder.HasOne(x => x.Repositorio)
                    .WithOne(y => y.Licenca);

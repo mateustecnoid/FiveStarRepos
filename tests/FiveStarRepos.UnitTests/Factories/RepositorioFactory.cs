@@ -107,23 +107,6 @@ namespace FiveStarRepos.UnitTests.Factories
                 licenca: null
             );
 
-        public static Repositorio RepositorioComDescricaoVazio => new
-            (
-                nome: "Repositorio 001",
-                nomeCompleto: "Nome completo do repositorio 001",
-                privado: false,
-                url: new Uri("https://github.com/"),
-                descricao: string.Empty,
-                dataCriacaoRepositorio: DateTime.UtcNow.AddDays(-10),
-                dataAtualizacaoRepositorio: DateTime.UtcNow.AddDays(-1),
-                tamanho: 1000,
-                stars: 2000,
-                linguagem: "C#",
-                branchPadrao: "master",
-                dono: null,
-                licenca: null
-            );
-
         public static Repositorio RepositorioComTamanhoDescricaoExcedido => new
             (
                 nome: "Repositorio 001",
