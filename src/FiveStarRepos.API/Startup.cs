@@ -13,6 +13,8 @@ namespace FiveStarRepos.API
     {
         public Startup(IConfiguration configuration) => Configuration = configuration;
 
+        private const string myAllowedOrigins = "FiveStarReposPolicy";
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -26,6 +28,17 @@ namespace FiveStarRepos.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FiveStarRepos.API", Version = "v1" });
+            });
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy(myAllowedOrigins,
+                                      policy =>
+                                      {
+                                          policy.AllowAnyOrigin()
+                                                .AllowAnyHeader()
+                                                .AllowAnyMethod();
+                                      });
             });
 
             services.ConfigureApplicationContext(Configuration);
@@ -46,6 +59,8 @@ namespace FiveStarRepos.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(myAllowedOrigins);
 
             app.UseEndpoints(endpoints =>
             {

@@ -1,0 +1,70 @@
+<div class="container">
+    <hr>
+    <div class="row registros">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Repositórios</h5>
+                </div>
+                <hr>
+                <table class="table table-responsive-lg table-striped table-bordered table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th style="width: 5% !important;" scope="col">#</th>
+                            <th style="width: 5% !important;" scope="col">Id</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Privado</th>
+                            <th scope="col">Criação</th>
+                            <th scope="col">Atualização</th>
+                            <th scope="col">Starts</th>
+                            <th scope="col">Linguagem</th>
+                            <th scope="col">Branch Padrão</th>
+                            <th scope="col">Dono</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let repositorio of repositorios.dados">
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" (click)="exibir(repositorio.id)">Exibir</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>{{repositorio.id}}</td>
+                            <td> <a href="{{repositorio.url}}" target="_blank">{{repositorio.nome}}</a> </td>
+                            <td>{{repositorio.privado}}</td>
+                            <td>{{repositorio.dataCriacaoRepositorio | date: 'dd/MM/yyyy - HH:mm'}}</td>
+                            <td>{{repositorio.dataAtualizacaoRepositorio | date: 'dd/MM/yyyy - HH:mm'}}</td>
+                            <td>{{repositorio.stars}}</td>
+                            <td>{{repositorio.linguagem}}</td>
+                            <td>{{repositorio.branchPadrao}}</td>
+                            <td>{{repositorio.dono}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <hr>
+            <div class="pager">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item">
+                            <a class="page-link" (click)="paginaAnterior()">Anterior</a>
+                        </li>
+                        <li class="page-item">
+                            <span class="page-link"> Pagina {{paginacao.pagina}} de {{ (repositorios.total / paginacao.tamanhoPagina) | number: '1.0-0'}}</span>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" (click)="proximaPagina()">Proximo</a>
+                        </li>
+                    </ul>
+                </nav>             
+            </div>
+        </div>
+    </div>
+</div>

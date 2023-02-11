@@ -21,7 +21,7 @@ namespace FiveStarRepos.Infra.Data.Repositories
 
             return await repositorios.Skip((page - 1) * pageSize)
                                      .Take(pageSize)
-                                     .OrderByDescending(x => x.Id)
+                                     .OrderByDescending(x => x.Stars)
                                      .ToListAsync();
         }
     }

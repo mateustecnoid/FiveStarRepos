@@ -1,0 +1,13 @@
+.pager, .pager p{
+    float: right;
+}
+
+th {
+    text-align: center !important;
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1350px !important;
+    }
+}
