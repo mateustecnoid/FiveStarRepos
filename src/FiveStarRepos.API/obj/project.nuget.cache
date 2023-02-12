@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wBavD2qgJIL32NQ1cF5Cv9UWN8295FQtve1NnGuwHRIEE15/zpb56bpPCTFWoPTIa+i34ErA+W5HfkzxevGKJA==",
+  "dgSpecHash": "zZCzqiSE/MPoE+dac1pgs7sp3/Z/fiCaDV9srsc5Xhun6hjITRIDuwa1M3IMYfia6uEqEpiG9tlBw6bVPE2Q+g==",
   "success": true,
   "projectFilePath": "D:\\Git\\FiveStarRepos\\src\\FiveStarRepos.API\\FiveStarRepos.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Mateus\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Mateus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.0\\microsoft.data.sqlclient.5.1.0.nupkg.sha512",
@@ -15,6 +16,7 @@
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
+    "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.1\\microsoft.entityframeworkcore.design.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\6.0.1\\microsoft.entityframeworkcore.proxies.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.1\\microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.1\\microsoft.entityframeworkcore.sqlserver.6.0.1.nupkg.sha512",

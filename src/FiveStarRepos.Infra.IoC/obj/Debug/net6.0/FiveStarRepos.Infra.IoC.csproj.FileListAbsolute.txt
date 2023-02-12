@@ -20,7 +20,6 @@ D:\Git\FiveStarRepos\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\ref\FiveStarRepos.
 D:\Git\FiveStarRepos\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Application.dll
 D:\Git\FiveStarRepos\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Application.pdb
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Infra.IoC.deps.json
-D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Infra.IoC.runtimeconfig.json
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Infra.IoC.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Infra.IoC.pdb
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\bin\Debug\net6.0\FiveStarRepos.Application.dll
@@ -38,5 +37,4 @@ D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\FiveStarRepos.
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\FiveStarRepos.Infra.IoC.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\refint\FiveStarRepos.Infra.IoC.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\FiveStarRepos.Infra.IoC.pdb
-D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\FiveStarRepos.Infra.IoC.genruntimeconfig.cache
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra.IoC\obj\Debug\net6.0\ref\FiveStarRepos.Infra.IoC.dll

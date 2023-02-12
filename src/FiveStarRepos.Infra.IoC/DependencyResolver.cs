@@ -23,7 +23,11 @@ namespace FiveStarRepos.Infra.IoC
         {
             services.AddDbContext<FiveStarReposContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
+                    sqlOptions =>
+                    {
+                        sqlOptions.MigrationsAssembly("FiveStarRepos.Infra.Dados");
+                    });
             });
 
             services.AddScoped<FiveStarReposContext>();

@@ -1,4 +1,5 @@
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.Dados.deps.json
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.Dados.runtimeconfig.json
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.Dados.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Infra.Dados.pdb
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\bin\Debug\net6.0\FiveStarRepos.Domain.dll
@@ -12,4 +13,5 @@ D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infr
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.Dados.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\refint\FiveStarRepos.Infra.Dados.dll
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.Dados.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\FiveStarRepos.Infra.Dados.genruntimeconfig.cache
 D:\Git\FiveStarRepos\src\FiveStarRepos.Infra\obj\Debug\net6.0\ref\FiveStarRepos.Infra.Dados.dll
