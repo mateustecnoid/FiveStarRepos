@@ -13,7 +13,7 @@ namespace FiveStarRepos.API.Controllers
     public class RepositoriosController : ControllerBase
     {
         /// <summary>
-        /// Registra os repositórios
+        /// Registra repositórios obtidos através da api do GitHub
         /// </summary>
         /// <param name="service"></param>
         /// <returns></returns>
@@ -32,7 +32,7 @@ namespace FiveStarRepos.API.Controllers
         /// Recupera um repositório por id
         /// </summary>
         /// <param name="service"></param>
-        /// <param name="id"></param>
+        /// <param name="id">Id do repositório</param>
         /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetRepositoryById([FromServices] IRecuperarRepositorioHandler service, long id)
@@ -46,7 +46,7 @@ namespace FiveStarRepos.API.Controllers
         }
 
         /// <summary>
-        /// Busca paginada de repositorios
+        /// Busca paginada de repositorios registrados
         /// </summary>
         /// <param name="service"></param>
         /// <param name="request"></param>

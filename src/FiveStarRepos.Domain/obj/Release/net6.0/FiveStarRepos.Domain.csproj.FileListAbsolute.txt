@@ -1,0 +1,15 @@
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\bin\Release\net6.0\FiveStarRepos.Domain.deps.json
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\bin\Release\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\bin\Release\net6.0\FiveStarRepos.Domain.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.csproj.AssemblyReference.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.Resources.MensagemResource.resources
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.Resources.ValidationResource.resources
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.csproj.GenerateResource.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.AssemblyInfoInputs.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.AssemblyInfo.cs
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.csproj.CoreCompileInputs.cache
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\refint\FiveStarRepos.Domain.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\FiveStarRepos.Domain.pdb
+D:\Git\FiveStarRepos\src\FiveStarRepos.Domain\obj\Release\net6.0\ref\FiveStarRepos.Domain.dll

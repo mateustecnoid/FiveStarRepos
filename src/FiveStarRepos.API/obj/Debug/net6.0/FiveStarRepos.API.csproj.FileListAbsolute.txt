@@ -95,3 +95,6 @@ D:\Git\FiveStarRepos\src\FiveStarRepos.API\obj\Debug\net6.0\refint\FiveStarRepos
 D:\Git\FiveStarRepos\src\FiveStarRepos.API\obj\Debug\net6.0\FiveStarRepos.API.pdb
 D:\Git\FiveStarRepos\src\FiveStarRepos.API\obj\Debug\net6.0\FiveStarRepos.API.genruntimeconfig.cache
 D:\Git\FiveStarRepos\src\FiveStarRepos.API\obj\Debug\net6.0\ref\FiveStarRepos.API.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Git\FiveStarRepos\src\FiveStarRepos.API\bin\Debug\net6.0\FiveStarRepos.API.xml
+D:\Git\FiveStarRepos\src\FiveStarRepos.API\obj\Debug\net6.0\FiveStarRepos.API.xml

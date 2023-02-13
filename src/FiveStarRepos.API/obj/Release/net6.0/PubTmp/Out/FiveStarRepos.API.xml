@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FiveStarRepos.API</name>
+    </assembly>
+    <members>
+        <member name="M:FiveStarRepos.API.Controllers.RepositoriosController.Get(FiveStarRepos.Application.Commands.Interfaces.ICriarRepositorioHandler)">
+            <summary>
+            Registra repositórios obtidos através da api do GitHub
+            </summary>
+            <param name="service"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FiveStarRepos.API.Controllers.RepositoriosController.GetRepositoryById(FiveStarRepos.Application.Queries.Interfaces.IRecuperarRepositorioHandler,System.Int64)">
+            <summary>
+            Recupera um repositório por id
+            </summary>
+            <param name="service"></param>
+            <param name="id">Id do repositório</param>
+            <returns></returns>
+        </member>
+        <member name="M:FiveStarRepos.API.Controllers.RepositoriosController.GetRepository(FiveStarRepos.Application.Queries.Interfaces.IListarRepositoriosHandler,FiveStarRepos.Application.Queries.ListarRepositorios.ListarRepositoriosQuery)">
+            <summary>
+            Busca paginada de repositorios registrados
+            </summary>
+            <param name="service"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
