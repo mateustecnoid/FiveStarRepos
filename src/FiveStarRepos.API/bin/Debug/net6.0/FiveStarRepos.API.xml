@@ -16,7 +16,7 @@
             Recupera um repositório por id
             </summary>
             <param name="service"></param>
-            <param name="id">Identificador do repositório</param>
+            <param name="id">Id do repositório</param>
             <returns></returns>
         </member>
         <member name="M:FiveStarRepos.API.Controllers.RepositoriosController.GetRepository(FiveStarRepos.Application.Queries.Interfaces.IListarRepositoriosHandler,FiveStarRepos.Application.Queries.ListarRepositorios.ListarRepositoriosQuery)">

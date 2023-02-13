@@ -15,6 +15,7 @@ namespace FiveStarRepos.Application.Commands.Criacao
     {
         private readonly IRepositorioNetwork _repositorioNetwork;
         private readonly IRepositorioRepository _repositorioRepository;
+        private string[] Linguagens = { "csharp", "javascript", "go", "python", "javascript" };
 
         public CriarRepositorioHandler(IRepositorioNetwork repositorioNetwork, IRepositorioRepository repositorioRepository)
         {
@@ -26,11 +27,11 @@ namespace FiveStarRepos.Application.Commands.Criacao
         {
             var repositorios = new List<Repositorio>(25);
 
-            foreach (var language in AmbienteHelper.Linguagens)
+            foreach (var language in Linguagens)
             {
                 var resultado = await _repositorioNetwork.GetRepository(language);
 
-                if (resultado is null) 
+                if (resultado is null)
                     return ResultResponse<CriarRepositorioResponse>.BuildFalha(MensagemResource.ConsultaNaoRetornouRegistros);
 
                 repositorios.AddRange(resultado.Select(response => CriarRepositorioFactory.Build(response)));
