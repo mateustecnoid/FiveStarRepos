@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiUrl: 'https://fivestarrepos-api.azurewebsites.net/api/v1/'
 };

@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a7037329-496d-4d6b-a76e-e6d681dcf500/AppServices/subscriptions/a7037329-496d-4d6b-a76e-e6d681dcf500/resourceGroups/rg-fivestarrepos/providers/Microsoft.Web/sites/fivestarrepos-app",
+    "appService.deploySubpath": "dist\\FiveStarrepos-App"
+}
