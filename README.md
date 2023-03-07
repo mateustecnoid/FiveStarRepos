@@ -58,5 +58,4 @@ $ npm start
 
 ## Notas:
 - Sempre que o app for iniciado as migrations serão aplicadas automanticamente
-- É possivel trocar as linguagens buscadas alterando o parametro "Linguagens" no [launchSettings.json](https://github.com/mateustecnoid/FiveStarRepos/blob/main/src/FiveStarRepos.API/Properties/launchSettings.json)
-- A api foi publicada no azure e pode ser acessada através desse link: [clique aqui](https://fivestarrepos-api.azurewebsites.net/swagger/index.html).
+- É possivel trocar as linguagens buscadas alterando o parametro "Linguagens" no [launchSettings.json](https://github.com/mateustecnoid/FiveStarRepos/blob/main/src/FiveStarRepos.API/Properties/launchSettings.json).
